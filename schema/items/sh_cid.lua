@@ -17,7 +17,7 @@ ITEM.functions.Assign = {
 				item:setData("name", entity:Name())
 				item:setData("id", math.random(10000, 99999))
 				
-				return true
+				return false
 			else
 				item.player:notify(result)
 			end
